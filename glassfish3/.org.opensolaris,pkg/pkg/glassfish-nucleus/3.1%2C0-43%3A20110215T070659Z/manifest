@@ -1,0 +1,101 @@
+set name=fmri value=pkg:/glassfish-nucleus@3.1,0-43:20110215T070659Z
+set name=info.classification value="Application Servers"
+set name=pkg.description value="GlassFish Nucleus package contains core server infrastructure such as GlassFish kernel, etc. GlassFish Server is a modular, lightweight, and extensible Java EE 6 application server built on OSGi. Key features include fast startup time, improved developer productivity, hybrid OSGi/Java EE applications, high availability clustering, centralized administration, and overall ease-of-use."
+set name=pkg.summary value="GlassFish Nucleus"
+depend fmri=pkg:/felix type=require
+depend fmri=pkg:/glassfish-hk2 type=require
+depend fmri=pkg:/glassfish-grizzly type=require
+file be069994ec5ef7fa44306a0775bc7533066cf2bf chash=6c45e24f373254dcf667ed73d68590a909f17b7b group=sys mode=0664 owner=root path=glassfish/osgi/equinox/configuration/config.ini pkg.csize=3673 pkg.size=10416 preserve=renamenew
+file fe0e9010bcd17994178861866d800df3b7903050 chash=e842eb67d93e14571e82d555cf5d21a4e356a438 group=sys mode=0664 owner=root path=glassfish/config/asenv.bat pkg.csize=1553 pkg.size=3468 preserve=renamenew
+file 266e5f0e3705a520c6f17c03ce2e8fedf6866b7a chash=5d99f1254f30ab0d755fff2b80c0c3ab23e4d179 group=sys mode=0664 owner=root path=glassfish/config/asadminenv.conf pkg.csize=1010 pkg.size=2013 preserve=renamenew
+file d7dcd5b5a608b573175ff6ab81beb643b518196e chash=700f350983425a3c5b4aa1c4dbf25a050a879d9e group=sys mode=0664 owner=root path=glassfish/config/asenv.conf pkg.csize=1527 pkg.size=3224 preserve=renamenew
+file ae60929ef70b101266d40e0bec870f19210277c1 chash=200582a5b93762db6a02f46622ab725af6d074ed group=sys mode=0664 owner=root path=glassfish/config/glassfish.container pkg.csize=1032 pkg.size=2070 preserve=renamenew
+license 8741fa556feea4ca58ec28abc47de0bf9d5b39a3 chash=28b7cfba8f297b99296afc231955dc90e8d76d47 license="CDDL and GPL v2 with classpath exception" pkg.csize=12394 pkg.size=38052
+dir group=sys mode=0755 owner=root path=glassfish/modules
+file 1dc423a026fe89245c7612cf9bbe1128c1afa431 chash=1536d300602e4c4956d88d212fd2163dadaf3179 group=sys mode=0664 owner=root path=glassfish/modules/api-exporter.jar pkg.csize=2366 pkg.size=3028
+file f84209894f5a7e27d77a7d5396f1fc044e2e5eb2 chash=783b2a7872a0585522e277f5e7aa16a1fbce4b47 group=sys mode=0664 owner=root path=glassfish/modules/config-types.jar pkg.csize=5345 pkg.size=7125
+file 330a543d10d4cc9cb3c30fcf63d740f6d5128da2 chash=283ae3c6ca76a36938461dfc8f826fef9f6185f3 group=sys mode=0664 owner=root path=glassfish/modules/simple-glassfish-api.jar pkg.csize=8905 pkg.size=11346
+file dc04b8e08bd7d9a2bf14dda135c36b04c1e5bd51 chash=579234e9566d17c8dc3eac7c11f41899125e4e19 group=sys mode=0664 owner=root path=glassfish/modules/flashlight-framework.jar pkg.csize=95184 pkg.size=107148
+file 50c22f4de8e24d66ccfeb05dd31138f24374fc85 chash=e21e91b7ed4360bdb91970bc18fe7a4bfd134796 group=sys mode=0664 owner=root path=glassfish/modules/deployment-autodeploy.jar pkg.csize=39881 pkg.size=43890
+file 44572af2fa342914386ba6d5aa0b6a29a51d1659 chash=8842b605b81dd6f8ca23a6010ff9d78d43b5c758 group=sys mode=0664 owner=root path=glassfish/modules/flashlight-extra-jdk-packages.jar pkg.csize=2341 pkg.size=3144
+file 393cd5ed4b6ea84a88c6c5d1d5e9b1f676dfd79e chash=38cca160bb550c79453fc6505741e196c6aa0ef1 group=sys mode=0664 owner=root path=glassfish/modules/common-util.jar pkg.csize=396383 pkg.size=447455
+file c5413e7952535190acd06c2933088ddaf806af22 chash=fcc760077db9ced99e8ddc73bd2de094604b7b28 group=sys mode=0664 owner=root path=glassfish/modules/launcher.jar pkg.csize=45201 pkg.size=49203
+file 307dcb94f4c54a04c334b70424e7de484c82f9df chash=74bd5f8adab5755cdff1cf66e73e212aa5700bf2 group=sys mode=0664 owner=root path=glassfish/modules/admin-util.jar pkg.csize=149509 pkg.size=163170
+file bd64e9ddccc2d6aa43e33dd4d4805cb80f8badba chash=f5d0adb5e7e1e728ba33e4f95b9e287ba68a2f1c group=sys mode=0664 owner=root path=glassfish/modules/glassfish-api.jar pkg.csize=89080 pkg.size=112927
+file 82848c9bc868da8cdaffcfc5e72837dd26f70574 chash=33b124c3a502c2ea797b91bc2d911d5d0c276d3e group=sys mode=0664 owner=root path=glassfish/modules/branding.jar pkg.csize=5138 pkg.size=6368
+file b4f2a80772b274bdc20f8fa0c229eb7a9a3a5b50 chash=b709628a761afd640e64e8c2d3917ae7e7abdfa4 group=sys mode=0664 owner=root path=glassfish/modules/osgi-main.jar pkg.csize=10143 pkg.size=11405
+file 7ddac66dfe5aa3d656dbec3c89a6bf4187a140db chash=3a5cc649147cadfafcc0c4ee2b8c78ff22d1ae9f group=sys mode=0664 owner=root path=glassfish/modules/osgi-adapter.jar pkg.csize=48560 pkg.size=53760
+file 345edeb2d592bd284ada65e43e67fe756c1727b8 chash=9caab04c4af8cba37bc46b3121b22b402bdfc941 group=sys mode=0664 owner=root path=glassfish/modules/glassfish-extra-jre-packages.jar pkg.csize=3396 pkg.size=4140
+file bab63227e6c53e650d87508074a71854b9135f54 chash=87abe189a790557a779a335982eef46cfa66074e group=sys mode=0664 owner=root path=glassfish/modules/grizzly-config.jar pkg.csize=86762 pkg.size=98258
+file c8d02a7325e4928d1a175a54c19333cc9c0b8afb chash=2db664fe083f7e3d918dc82fde179c73a0a0140a group=sys mode=0664 owner=root path=glassfish/modules/kernel.jar pkg.csize=582366 pkg.size=626795
+file 3a2ef7e6a564e5d79865159b99151da7fc1f2538 chash=fc127aeaf70977e5bd7094d640b0ef4711137f47 group=sys mode=0664 owner=root path=glassfish/modules/flashlight-agent.jar pkg.csize=2773 pkg.size=4021
+file 488f13b15381649f1631ddf1824185caada6e54e chash=2ad3b6e523c335b4c96ab7570987beda148a0e60 group=sys mode=0664 owner=root path=glassfish/modules/gmbal.jar pkg.csize=238443 pkg.size=269241
+file c295672cc27f562efaadf005a01ff3ee8986a83b chash=2de927058e4b7874e49666192b5dceb937753788 group=sys mode=0664 owner=root path=glassfish/modules/logging.jar pkg.csize=84621 pkg.size=91931
+file 4a617555ccfea146c670c134fe74fdd84900ce1a chash=879b5c6bc21773a3622e76bc434285b8bfb6e122 group=sys mode=0664 owner=root path=glassfish/modules/internal-api.jar pkg.csize=91633 pkg.size=105470
+file df20a828c3f56f759850bca103104b0706ac83d2 chash=f207066824c2216cfff506ac04711cbef0efcf39 group=sys mode=0664 owner=root path=glassfish/modules/glassfish.jar pkg.csize=103050 pkg.size=115322
+file 112a700f8c1f10dec4c5dd13c16c9e0291ec5582 chash=679fdf3b763eb967bc0af39219a3773e125c11c6 group=sys mode=0664 owner=root path=glassfish/modules/deployment-common.jar pkg.csize=118099 pkg.size=128603
+file 111b5539192ab86060bc23c2c0df3e9108026bcd chash=1870ec367f6c26be8c0db533c8485fe1402935b4 group=sys mode=0664 owner=root path=glassfish/modules/pkg-client.jar pkg.csize=140800 pkg.size=148216
+file 8fe8b62d431b6eefbe9d4006ea182d5cd6344ac0 chash=aa33dbe9b8699869d749fa4bf4002c4b314e5882 group=sys mode=0664 owner=root path=glassfish/modules/management-api.jar pkg.csize=36184 pkg.size=43489
+file 4f3972852f92859eabaf5cc8d519d074da5164b0 chash=9c9c57192f484a0e38be8553bbacf361ae76b0a7 group=sys mode=0664 owner=root path=glassfish/modules/admin-cli.jar pkg.csize=173953 pkg.size=186575
+file 33658a89dd15c1998ec9f6c44ef59a6f08e11014 chash=0806abdadb89acd8e3c7aeb4fb419b7581305011 group=sys mode=0664 owner=root path=glassfish/modules/deployment-admin.jar pkg.csize=121920 pkg.size=129094
+file a49c09ad7e19b7d1d51285f488cf0ac72ede4333 chash=c3e5a41eecce9006276986f2a8de86c32737e794 group=sys mode=0664 owner=root path=glassfish/modules/config-api.jar pkg.csize=500020 pkg.size=572504
+file 37ebd5f6f96a3022eaff35227c0b031113577b34 chash=c78e99e08edc123f42136f36209f58b8c676a68b group=sys mode=0664 owner=root path=glassfish/modules/scattered-archive-api.jar pkg.csize=10635 pkg.size=12438
+dir group=sys mode=0755 owner=root path=glassfish/lib
+file ee09d86d25718074805de6ce8fa4f613adc857b2 chash=21932a4f6c3fcb81689b668a39e56b3fde096857 group=sys mode=0664 owner=root path=glassfish/lib/jndi-properties.jar pkg.csize=1299 pkg.size=1449
+file d221c93c3f3e2b8500180ebce79004f40594ca89 chash=d92d997b213e3b0eaea85eee36bafff9a2a23d72 group=sys mode=0664 owner=root path=glassfish/lib/package-appclient.xml pkg.csize=2311 pkg.size=8743
+dir group=sys mode=0755 owner=root path=glassfish/lib/asadmin
+dir group=sys mode=0755 owner=root path=glassfish/lib/install
+dir group=sys mode=0755 owner=root path=glassfish/lib/endorsed
+dir group=sys mode=0755 owner=root path=glassfish/lib/templates
+dir group=sys mode=0755 owner=root path=glassfish/lib/appclient
+dir group=sys mode=0755 owner=root path=glassfish/lib/monitor
+dir group=sys mode=0755 owner=root path=glassfish/lib/registration
+dir group=sys mode=0755 owner=root path=glassfish/lib/install/templates
+file be46e77e54de155c41f892878037bab942f3b6a9 chash=35794c147e41ab965046098aab64d1425f27ab61 group=sys mode=0664 owner=root path=glassfish/lib/install/templates/Domain-service-winsw.xml.template pkg.csize=1362 pkg.size=2956
+file 48065fef325d2f9196e1f8529dd8585d26d8879e chash=86d7937b4e6a400e52b8f84326fc5ab91b7cf7cd group=sys mode=0664 owner=root path=glassfish/lib/install/templates/linux-service.template pkg.csize=1443 pkg.size=3071
+file 5a28f2f465d9236b2b50764fb1ddb457e1553666 chash=bc4180bfc45e7351f3a0d415fb4a99e85587453c group=sys mode=0664 owner=root path=glassfish/lib/install/templates/Domain-service-smf.xml.template pkg.csize=1899 pkg.size=4721
+file 871b95b273423cb3c6d37b36d07c5acfd5fe1590 chash=7f66cc60ff6da4f1079df298a7cfb40af6d55968 group=sys mode=0664 owner=root path=glassfish/lib/templates/server.policy pkg.csize=2227 pkg.size=6416
+file 21b013b43d7e419332b9b74ed7d7933ec9c9e042 chash=0e5ec028363a6d5ef266ab37b7572bed5962bb7a group=sys mode=0664 owner=root path=glassfish/lib/templates/wss-server-config-1.0.xml pkg.csize=2135 pkg.size=7401
+file 2a29da332c0fa6528e638aa80c0e9bd8be685fee chash=83d423f103b0a04660db219e438ff3eee1f40859 group=sys mode=0664 owner=root path=glassfish/lib/templates/domain.xml pkg.csize=5683 pkg.size=31082
+file 49c94e4a6e5be3e5d2037692ec191b2883ad618b chash=7135c44576a165599f8465044c0dccc1235d88d0 group=sys mode=0664 owner=root path=glassfish/lib/templates/default-web.xml pkg.csize=8394 pkg.size=49728
+file a22263eca2dfaaa9a7a2362f93db7be838d303d3 chash=e583df83e4dddcb380c15acb0ccc0c00e5d83b25 group=sys mode=0664 owner=root path=glassfish/lib/templates/login.conf pkg.csize=1094 pkg.size=2497
+file 79709cae51fbcc77af871a966f772deadfc0fe9a chash=4b88ffc6bd269c80068b87ad37825e2d4605640e group=sys mode=0664 owner=root path=glassfish/lib/templates/wss-server-config-2.0.xml pkg.csize=2139 pkg.size=7907
+file a0705cbcb012c2727e827283336ef071b776a9e8 chash=30515192bc8c6444f52a4bf75b50bb1e17abe7a3 group=sys mode=0664 owner=root path=glassfish/lib/templates/keystore.jks pkg.csize=1281 pkg.size=1386
+file 2c25cd919ea313c38c2c69467e08ef83ec7cfb8f chash=bc6c522e17f7e4b9a27e46e512d230479b0da247 group=sys mode=0664 owner=root path=glassfish/lib/templates/logging.properties pkg.csize=1697 pkg.size=5312
+file a208375a6579266f14d1c7d9da3d27b333c5d124 chash=79b9da1f6433b4c4592da8630dde1cc456b68533 group=sys mode=0664 owner=root path=glassfish/lib/templates/domain.xml.xsl pkg.csize=1423 pkg.size=3180
+file 9b5cf01195c6c3b017701b57bdd18dfa14e85151 chash=5172d277916d1a04bed6c2c2c4643ac217312a15 group=sys mode=0664 owner=root path=glassfish/lib/templates/cacerts.jks pkg.csize=50975 pkg.size=80122
+file 4acd60c5a2e376efa0af5ad436d344957a25207d chash=b1e5e592583373c4c8cb08a200bf15086ee10418 group=sys mode=0664 owner=root path=glassfish/lib/templates/profile.properties pkg.csize=988 pkg.size=1985
+file 41f16f963471a6b49c92bce0f788cf4a7be4b8de chash=1aaef808961cba08f5bdb2748157cf21c88510c0 group=sys mode=0664 owner=root path=glassfish/lib/templates/keyfile pkg.csize=996 pkg.size=2003
+file bfb018d7d8af8f575bc9d43b293bd123c6fe5478 chash=baeb861c40df8aad12b8053acfa12f638db5556c group=sys mode=0664 owner=root path=glassfish/lib/templates/sun-acc.xml pkg.csize=1598 pkg.size=3863
+dir group=sys mode=0755 owner=root path=glassfish/lib/templates/docroot
+file 392c9485f0531c4aee824187b46f2fca60a37c95 chash=5244f5ce4b4cc3e733f456ddb0116172124e0274 group=sys mode=0664 owner=root path=glassfish/lib/templates/docroot/index.html pkg.csize=2156 pkg.size=4738
+file f959fceaefb30e09e101826ef9cd9d6b58b4c10f chash=18eb05e5c01f07d05fa01904d0575f98edf1ae19 group=sys mode=0664 owner=root path=glassfish/lib/appclient/wss-client-config-1.0.xml pkg.csize=2245 pkg.size=6852
+file d94ca4b03bbf99f39a7f2096cecfec5a6560a2cf chash=580fc2389abfe70fa1710dbe3500a6e7b0bb3618 group=sys mode=0664 owner=root path=glassfish/lib/appclient/wss-client-config-2.0.xml pkg.csize=2269 pkg.size=8336
+file 7b931ae775d53fe10fdc2af1f59c0ef825545640 chash=b89c397216ecdb50d6bf176191474518df8dd776 group=sys mode=0664 owner=root path=glassfish/lib/appclient/appclientlogin.conf pkg.csize=1061 pkg.size=2196
+file c1f69f358aee5a56ab7a597cb7924c448b951572 chash=3e40cf467cad1d196270f73fbaeb47020436a2ea group=sys mode=0664 owner=root path=glassfish/lib/appclient/client.policy pkg.csize=1583 pkg.size=4073
+file 14d2b8fd5912450fd5fc6c17901ab9acf5db4b16 chash=3c4a87339913ba31e24c46eeee4cc4f7f7c37668 group=sys mode=0664 owner=root path=glassfish/lib/monitor/btrace-boot.jar pkg.csize=101956 pkg.size=114072
+file 81b2b1cae97341b574683484c0003509bd38de0e chash=52df343da09ecaed6615ba774f68fd6d087d5447 group=sys mode=0664 owner=root path=glassfish/lib/monitor/btrace-agent.jar pkg.csize=194520 pkg.size=210828
+dir group=sys mode=0755 owner=root path=glassfish/legal
+dir group=sys mode=0755 owner=root path=glassfish/domains
+dir group=sys mode=0755 owner=root path=glassfish/docs
+file 1e71e4f6ccca83b0bfe7e89d0c8684216803134e chash=fe7783cb28b5e39d27763825942ac5084792721f group=sys mode=0664 owner=root path=glassfish/docs/quickstart.html pkg.csize=7495 pkg.size=33461
+file d9dfb88e24f9809a2386bbdf703c6c3c2115e906 chash=a013f5742b1a90c8d94968068c3828342767489f group=sys mode=0664 owner=root path=glassfish/docs/about.html pkg.csize=2966 pkg.size=7042
+file 74f71e7dfb18833c6e87933702db959f8be9ce17 chash=dc8162b719804ef62df32d73a16d15ed6859b277 group=sys mode=0664 owner=root path=glassfish/docs/features.html pkg.csize=3520 pkg.size=9153
+file b4dfc9b82625d47923817b45afd9f309fa4b07bc chash=e55fc2ef140e289700a2995bd3174c512d5fffe0 group=sys mode=0664 owner=root path=glassfish/docs/copyright.html pkg.csize=2375 pkg.size=5325
+dir group=sys mode=0755 owner=root path=glassfish/docs/graphics
+dir group=sys mode=0755 owner=root path=glassfish/docs/css
+file 05d64ca8203f4425fcac45225049262b004fb3a8 chash=7154d49b26285e6d10b588b03484a0afcb81b7bb group=sys mode=0664 owner=root path=glassfish/docs/graphics/logo_sun.gif pkg.csize=1045 pkg.size=1022
+file b54debab05b3ef27f0e7c4d8d974b16437802cc6 chash=539021d4aeea8b460bdafddcac0b53f30a76ddaf group=sys mode=0664 owner=root path=glassfish/docs/css/default.css pkg.csize=2582 pkg.size=8747
+dir group=sys mode=0755 owner=root path=glassfish/bin
+file 4bf2e45ceb4c8c9c4bcf4943205492627b79f1ad chash=ad6d71db345a618e751a6a90695007b3bdea46cf group=sys mode=0775 owner=root path=glassfish/bin/jspc pkg.csize=1216 pkg.size=2664
+file 29f7f797688a263a7295cc7693208e7387053f26 chash=3fece3953e3574caf3115113cc951ccac10752e2 group=sys mode=0775 owner=root path=glassfish/bin/startserv pkg.csize=1061 pkg.size=2098
+file e7a85d19ab98f95f30b9c1fe14b9da33e405c9f3 chash=a0f4606641201d06448c51e39f0ec2cb9431e070 group=sys mode=0775 owner=root path=glassfish/bin/startserv.bat pkg.csize=1044 pkg.size=2183
+file 76b2efb0f78de7c2a27e978408141008d185e00c chash=c5ae5d1876ae03ab312d6081c7dc0e934b1d5187 group=sys mode=0775 owner=root path=glassfish/bin/asadmin.bat pkg.csize=1229 pkg.size=2507
+file d61089a60f6043150d965687dc9d49cd159c7a18 chash=c2b846fa572798ea82eddd69146052638007f37c group=sys mode=0775 owner=root path=glassfish/bin/jspc.bat pkg.csize=1233 pkg.size=2867
+file 627649d9629c1bde7c1ac032a5c3bc3f0f138d63 chash=a4aaabc9f123eac26e61fca3933cd2385105de1d group=sys mode=0775 owner=root path=glassfish/bin/asadmin pkg.csize=1187 pkg.size=2332
+file beb52b4c2b83218ab161778a7b848d7581c51c25 chash=a823452f144c12685d5f3277b2579d9a1974f4b6 group=sys mode=0775 owner=root path=glassfish/bin/stopserv pkg.csize=1055 pkg.size=2089
+file 3111acd07631cd4eb96f67fc3209ddb54dcad1b6 chash=b95fe4a582a1d70ff24e36b96142dc1e285f1abd group=sys mode=0775 owner=root path=glassfish/bin/stopserv.bat pkg.csize=1037 pkg.size=2172
+dir group=sys mode=0755 owner=root path=bin
+file 56b3c8c0364ddc3a84337b0919b9c2833bdc7d6c chash=9004ffe1395498eea779ff0a369615b0ef9d8308 group=sys mode=0775 owner=root path=bin/asadmin pkg.csize=1143 pkg.size=2262
+file b60209468159c2b2b82d712414cb721a4b33f2d3 chash=c775fb6a32b2b163e77e739be7f1be4d74997933 group=sys mode=0775 owner=root path=bin/asadmin.bat pkg.csize=1233 pkg.size=2536
+set name=publisher value=stable.glassfish.org

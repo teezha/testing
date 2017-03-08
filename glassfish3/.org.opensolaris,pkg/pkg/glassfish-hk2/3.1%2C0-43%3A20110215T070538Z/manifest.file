@@ -1,0 +1,8 @@
+file 452d64e7311cfcbd508de03ee43804775eea2914 chash=668ab24e3e336b13c66e765939a1a097ece63595 group=sys mode=0664 owner=root path=glassfish/modules/config.jar pkg.csize=138148 pkg.size=151907
+file 0211b31bac4349560f7bc3662f605e2c451ede80 chash=dab460ac02f154fd609b222dab911b36d61a8d44 group=sys mode=0664 owner=root path=glassfish/modules/class-model.jar pkg.csize=61012 pkg.size=71832
+file 5985d1262d7cf78001b44ab48a6076ab086b90de chash=65c4db249dad6e76dea827046541030dd43f4c24 group=sys mode=0664 owner=root path=glassfish/modules/asm-all-repackaged.jar pkg.csize=92551 pkg.size=101988
+file 0692c6e309813f5943ea4f1da1d4c0ad80bd3eec chash=f9a1a7649df2cd1bba487dd5f37df1c44d267288 group=sys mode=0664 owner=root path=glassfish/modules/auto-depends.jar pkg.csize=249397 pkg.size=283702
+file 7e68a00b13b622bb6e977fb7069cd5b829a6d722 chash=f5cf7aec3f40d6298a067edac3f3cb63b6d8ff1c group=sys mode=0664 owner=root path=glassfish/modules/bean-validator.jar pkg.csize=326006 pkg.size=375760
+file acc0ad5faf7b74bacb1112fa4cf88726831339b1 chash=1b9fa633fa427df423998a22c82eed46f381abfd group=sys mode=0664 owner=root path=glassfish/modules/osgi-resource-locator.jar pkg.csize=16954 pkg.size=20017
+file 5ab42c6739be518823e60ae79ec698d6ae0137c5 chash=be580a4946136cff6dd159e0856dae48699cc44c group=sys mode=0664 owner=root path=glassfish/modules/hk2.jar pkg.csize=2695 pkg.size=3312
+file 2572041f3d6803793d8fcc7eff0056f9d2cb8efc chash=25eef5e55c7f368ab9ff015b0f1db3fe49491faa group=sys mode=0664 owner=root path=glassfish/modules/hk2-core.jar pkg.csize=103623 pkg.size=115249

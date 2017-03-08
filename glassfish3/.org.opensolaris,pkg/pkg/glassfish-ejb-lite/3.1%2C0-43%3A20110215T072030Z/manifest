@@ -1,0 +1,17 @@
+set name=fmri value=pkg:/glassfish-ejb-lite@3.1,0-43:20110215T072030Z
+set name=info.classification value="Application Servers"
+set name=pkg.description value="EJB 3.1 Lite is a lightweight subset of EJB 3.1 that includes support for local session beans (stateful / stateless / singleton) and .war-based packaging/deployment.  GlassFish Server is a modular, lightweight, and extensible Java EE 6 application server built on OSGi. Key features include fast startup time, improved developer productivity, hybrid OSGi/Java EE applications, high availability clustering, centralized administration, and overall ease-of-use."
+set name=pkg.summary value="GlassFish EJB Lite Container"
+depend fmri=pkg:/glassfish-common type=require
+depend fmri=pkg:/glassfish-jpa type=require
+license 8741fa556feea4ca58ec28abc47de0bf9d5b39a3 chash=28b7cfba8f297b99296afc231955dc90e8d76d47 license="CDDL and GPL v2 with classpath exception" pkg.csize=12394 pkg.size=38052
+dir group=sys mode=0755 owner=root path=glassfish
+dir group=sys mode=0755 owner=root path=glassfish/modules
+file a75fe61a3ddd2e9279880ab9da0d25101fe4dc67 chash=7ad880d9313547b1c759cc79cb20c99c7a5ee429 group=sys mode=0664 owner=root path=glassfish/modules/console-ejb-lite-plugin.jar pkg.csize=14758 pkg.size=17517
+file d4feb5193ef2fb36081ffa6acd1896feb3070898 chash=d177b3a5b6c75fd632807f8942630283d6d4cd1d group=sys mode=0664 owner=root path=glassfish/modules/console-ejb-lite-plugin-help.jar pkg.csize=13453 pkg.size=15662
+file eabc90968395022b5268037594dd24fa4b95bd41 chash=f0b3e0048e195bbad46292aa6a3b7f5a90db1c2f group=sys mode=0664 owner=root path=glassfish/modules/gf-ejb-connector.jar pkg.csize=6965 pkg.size=8483
+file fa6c49c97b4c0473b78be5d116bf92da90abe9a2 chash=a0a015da0b70a0967ee897c9821594ab4f507a34 group=sys mode=0664 owner=root path=glassfish/modules/ejb-container.jar pkg.csize=795795 pkg.size=858928
+file ba8f79a97ee6a5918d84c009a42fd956689ce5a4 chash=9f33bcafae12006bb7286ed98d00449507ac6603 group=sys mode=0664 owner=root path=glassfish/modules/javaee-kernel.jar pkg.csize=6725 pkg.size=8168
+dir group=sys mode=0755 owner=root path=glassfish/modules/autostart
+file 7cf2d6603e02afc32ca4bad81c54b6f4564b9ac0 chash=bea5a3fe251170fd97a043c5f75a785650c9609e group=sys mode=0664 owner=root path=glassfish/modules/autostart/osgi-ejb-container.jar pkg.csize=17618 pkg.size=20199
+set name=publisher value=stable.glassfish.org

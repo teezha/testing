@@ -1,0 +1,2 @@
+file 85964760d6e407682d9117a70d9477832bce9bd8 chash=598884c47730b960ee2ca01fd614331a2d3ad760 group=sys mode=0664 owner=root path=glassfish/modules/jta.jar pkg.csize=61762 pkg.size=67540
+file b3652893f701cb4696a4afb73442b1ff3f2a3fc8 chash=b684bf6f64cc74a2c69117c0115f05ba894842d1 group=sys mode=0664 owner=root path=glassfish/modules/autostart/osgi-jta.jar pkg.csize=5993 pkg.size=7315

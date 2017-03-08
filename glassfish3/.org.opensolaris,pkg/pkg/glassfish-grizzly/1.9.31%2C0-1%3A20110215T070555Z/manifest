@@ -1,0 +1,14 @@
+set name=fmri value=pkg:/glassfish-grizzly@1.9.31,0-1:20110215T070555Z
+set name=info.classification value="Application Servers"
+set name=pkg.description value="Grizzly is an Java NIO framework for building scalable application. It also offers embeddable components supporting HTTP, Bayeux Protocol, Servlet (Partially) and Comet. For more information, see: https://grizzly.dev.java.net/.  GlassFish Server is a modular, lightweight, and extensible Java EE 6 application server built on OSGi. Key features include fast startup time, improved developer productivity, hybrid OSGi/Java EE applications, high availability clustering, centralized administration, and overall ease-of-use."
+set name=pkg.summary value="Grizzly NIO Framework"
+license 8741fa556feea4ca58ec28abc47de0bf9d5b39a3 chash=28b7cfba8f297b99296afc231955dc90e8d76d47 license="CDDL and GPL v2 with classpath exception" pkg.csize=12394 pkg.size=38052
+dir group=sys mode=0755 owner=root path=glassfish
+dir group=sys mode=0755 owner=root path=glassfish/modules
+file da9779e88ac4f7c576f9a90c5ef3212ef8ae10ce chash=138ecab9cbb76d47c13218f8b456c15a81ef55bb group=sys mode=0664 owner=root path=glassfish/modules/grizzly-portunif.jar pkg.csize=16748 pkg.size=19085
+file 258c320911a9cc9db8f4219b609c149386e9f2ff chash=d4776aba476610ed2dd54b1935543d8a57339f9b group=sys mode=0664 owner=root path=glassfish/modules/grizzly-lzma.jar pkg.csize=48646 pkg.size=54059
+file bbecd2ef4ecf5d8cf5e747b527921e35ae406aeb chash=89f0ec13caac26d31af83599a559dfbd1741b0d2 group=sys mode=0664 owner=root path=glassfish/modules/grizzly-utils.jar pkg.csize=452481 pkg.size=490235
+file c940c6773f0bf1f117867ebf70c9ea2bca85fe0a chash=3ef66ceb578928f853adaf6955c6b1d83b029304 group=sys mode=0664 owner=root path=glassfish/modules/grizzly-framework.jar pkg.csize=213103 pkg.size=237635
+file 0c81b1630ec4edfd4b1119be5ffd321cc58e5640 chash=720300e43311a1eae18042d74df5710f79466016 group=sys mode=0664 owner=root path=glassfish/modules/grizzly-http.jar pkg.csize=160044 pkg.size=173136
+file 524813bcc823307c036d08d2a03c6f39ea40cc84 chash=3c65059ba2e8cfb6b130390be577ab79630c8564 group=sys mode=0664 owner=root path=glassfish/modules/grizzly-rcm.jar pkg.csize=8825 pkg.size=10034
+set name=publisher value=stable.glassfish.org

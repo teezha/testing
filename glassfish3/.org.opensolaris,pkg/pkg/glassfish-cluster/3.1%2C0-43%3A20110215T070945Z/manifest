@@ -1,0 +1,18 @@
+set name=fmri value=pkg:/glassfish-cluster@3.1,0-43:20110215T070945Z
+set name=info.classification value="Application Servers"
+set name=pkg.description value="Clustering support for GlassFish. GlassFish Server is a modular, lightweight, and extensible Java EE 6 application server built on OSGi. Key features include fast startup time, improved developer productivity, hybrid OSGi/Java EE applications, high availability clustering, centralized administration, and overall ease-of-use."
+set name=pkg.summary value="GlassFish Clustering"
+depend fmri=pkg:/glassfish-common type=require
+license 8741fa556feea4ca58ec28abc47de0bf9d5b39a3 chash=28b7cfba8f297b99296afc231955dc90e8d76d47 license="CDDL and GPL v2 with classpath exception" pkg.csize=12394 pkg.size=38052
+dir group=sys mode=0755 owner=root path=glassfish
+dir group=sys mode=0755 owner=root path=glassfish/modules
+file d2a99cb67a7c84b9758f7c73b1fb6607e33ad32a chash=3eb78488864c1f2e76b5a6550dd9d14590af0cba group=sys mode=0664 owner=root path=glassfish/modules/cluster-cli.jar pkg.csize=92178 pkg.size=98215
+file b2ee510e9b6f9cafe48045ffda47c83e32042b0c chash=930eb6a6a4b2b21bdb969dfff7d24a676cd9bc33 group=sys mode=0664 owner=root path=glassfish/modules/cluster-ssh.jar pkg.csize=27100 pkg.size=30066
+file 15644a86ce57e807448f48d5b29355d795be3f01 chash=d5aebbe51f695c3ff818c5566b6e1624acfa06f9 group=sys mode=0664 owner=root path=glassfish/modules/load-balancer-admin.jar pkg.csize=127776 pkg.size=142493
+file a3663915c6091a08d296cb9c84f108542bc60e26 chash=6b476671df982aed020be48e7cf9fb1525a7673d group=sys mode=0664 owner=root path=glassfish/modules/gms-adapter.jar pkg.csize=37611 pkg.size=40901
+file 4d7a592346b41ad36fc04961f40492ecb89f6e73 chash=3d4a48e5f094a3c0adcd3bd4ddf6ba6ba95e1e97 group=sys mode=0664 owner=root path=glassfish/modules/console-cluster-plugin-help.jar pkg.csize=118309 pkg.size=131074
+file 484564011eed6c9f17812a8516d807cc57fe80d7 chash=2490be880cc02a135ef3504a05e13d76e34b6164 group=sys mode=0664 owner=root path=glassfish/modules/trilead-ssh2-repackaged.jar pkg.csize=234629 pkg.size=253429
+file be893e0bc806906b8da749cfbbdf9838928c4165 chash=f7ba3f1562a2cafb705e6e7324927cff4d7689c5 group=sys mode=0664 owner=root path=glassfish/modules/cluster-admin.jar pkg.csize=219311 pkg.size=236857
+file 96802a1c91a3b2d140f0bc69a00c8789f96d7f5c chash=902738ccb6b95d272b78d490a95a0d204c426349 group=sys mode=0664 owner=root path=glassfish/modules/console-cluster-plugin.jar pkg.csize=110027 pkg.size=117612
+file 0f01db62bbbb9406cf924e5ffa255177fdf208d0 chash=eb970413ccbc3294b1a2146d95b73323fea411c3 group=sys mode=0664 owner=root path=glassfish/modules/cluster-common.jar pkg.csize=11970 pkg.size=13882
+set name=publisher value=stable.glassfish.org

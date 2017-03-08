@@ -1,0 +1,11 @@
+file 29deb7f37667ed8c62bcba69f847bc578f53f3a0 chash=439ea91e00180ac234b77217561ae7cf6e1bb574 group=sys mode=0664 owner=root path=glassfish/modules/org.eclipse.persistence.core.jar pkg.csize=4004565 pkg.size=4349385
+file 75f240223dc915f1e0e56e870c8f5a378c455ede chash=4b6692c327df8dd0578970995437ec169d07d015 group=sys mode=0664 owner=root path=glassfish/modules/org.eclipse.persistence.asm.jar pkg.csize=210671 pkg.size=236938
+file 59ec9d9e00cae9bb5ac6dd0ba9265519c53c021f chash=e0a108f7cfe379d955349891e7c20c7ee1569662 group=sys mode=0664 owner=root path=glassfish/modules/org.eclipse.persistence.jpa.modelgen.jar pkg.csize=44481 pkg.size=47837
+file 620811b314c8bb698927347cd84afc61e62c0eda chash=771f31a7d27e1a5bf1cfd86c0bf05ab43545eb7f group=sys mode=0664 owner=root path=glassfish/modules/persistence-common.jar pkg.csize=23591 pkg.size=26287
+file 21681d08c154230ba465e07f8114e9a971ba7abe chash=164036e35182efec0ceea97e5caa059ebbff9cf1 group=sys mode=0664 owner=root path=glassfish/modules/jpa-connector.jar pkg.csize=39378 pkg.size=43422
+file 8226dc5b019bfa10e0028b71e5efe8ce61ae0e54 chash=2a9088477e4a25d5a19e9c6cdf5e7aec4bfb3dff group=sys mode=0664 owner=root path=glassfish/modules/osgi-jpa-extension.jar pkg.csize=7137 pkg.size=8758
+file 16fe695dff682564aa7be56465c549b94df637df chash=91d88012a74fd27a56f88429a8bebdd497067d16 group=sys mode=0664 owner=root path=glassfish/modules/org.eclipse.persistence.antlr.jar pkg.csize=166853 pkg.size=191857
+file d84be6137d810c387a417fdc11d312b2b7af37fc chash=a9e918bd14de5f8855b2243d7bba760f35da561e group=sys mode=0664 owner=root path=glassfish/modules/org.eclipse.persistence.oracle.jar pkg.csize=70349 pkg.size=80370
+file 2ad84ac1b4821092c15d50da13745f3d013042ed chash=06621d1ae6313185bd573996276158d782dbe788 group=sys mode=0664 owner=root path=glassfish/modules/glassfish-oracle-jdbc-driver-packages.jar pkg.csize=2475 pkg.size=3318
+file d7314e2c9a83aabb84b746fa31f988338f2f59dc chash=39eb01c491230d62d900bff0519b720e9841b2b4 group=sys mode=0664 owner=root path=glassfish/modules/org.eclipse.persistence.jpa.jar pkg.csize=790030 pkg.size=859627
+file bdc61acbc996b32277599910f65100c20c8f399a chash=02daadedd0f0243c5931038ff80d1a40c90ee215 group=sys mode=0664 owner=root path=glassfish/modules/autostart/osgi-jpa.jar pkg.csize=27600 pkg.size=31144

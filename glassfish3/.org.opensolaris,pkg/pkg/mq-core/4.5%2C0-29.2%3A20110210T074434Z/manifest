@@ -1,0 +1,19 @@
+set name=fmri value=pkg:/mq-core@4.5,0-29.2:20110210T074434Z
+set name=pkg.maintainer_url value=http://mq.dev.java.net/
+set name=info.classification value=":Message-Oriented Middleware"
+set name=pkg.detailed_url value=http://mq.dev.java.net/about.html
+set name=pkg.summary value="Message Queue Core"
+set name=pkg.upstream_url value=http://mq.dev.java.net/
+set name=pkg.description value="Core client components/files of the Message Queue product.  Message Queue (MQ) is an enterprise quality, production ready, scalable messaging server.  It provides a complete Java Message Service (JMS) implementation for message oriented system integration.  In addition, Message Queue provides the additional enterprise features that are necessary for enterprise deployments, large and small."
+set name=info.source_url value=http://mq.dev.java.net/downloads.html
+license 8741fa556feea4ca58ec28abc47de0bf9d5b39a3 chash=28b7cfba8f297b99296afc231955dc90e8d76d47 license=CDDLv1.0 pkg.csize=12394 pkg.size=38052
+dir group=sys mode=0755 owner=root path=mq
+dir group=sys mode=0755 owner=root path=mq/lib
+file a631800785c64e087b2784ea4380317401cbcbba chash=15385c944c07c2b2622171785e2b7246ecb99a92 group=sys mode=0755 owner=root path=mq/lib/jms.jar pkg.csize=42530 pkg.size=55440
+file f77f74b8f4a3c5162a022f146e4c4d7f86442ea3 chash=80fe6c699079342ca825bf24c37a4a98427b66b8 group=sys mode=0755 owner=root path=mq/lib/imq.jar pkg.csize=473451 pkg.size=519446
+file 7943da571b62a6d099f890c62baa38abfef3ec0a chash=db56188ed9bf7d517a16f81cc5c9c3b31ebf399c group=sys mode=0755 owner=root path=mq/lib/imqjmx.jar pkg.csize=44589 pkg.size=53609
+file 5683954096ab8c82b1dfb1c0a6451faee499c9c9 chash=b815db80e206d9c5816b3eee4aca7a3b3bc26b33 group=sys mode=0755 owner=root path=mq/lib/imqxm.jar pkg.csize=28432 pkg.size=29935
+file 2df7fe40f583f1a5e7090f00dd5aca95f82a09ed chash=cce1ccdecb4f2cba7a9ad9e13cdeae2b220ea819 group=sys mode=0755 owner=root path=mq/lib/jaxm-api.jar pkg.csize=19741 pkg.size=21873
+file 357ce4ed293bdc8f421874870d04b1d035a0b8db chash=8e78ea3ff40c26a4092b2d5acf77e0f87f9e5449 group=sys mode=0644 owner=root path=mq/lib/fscontext.jar pkg.csize=90497 pkg.size=99926
+file c4ae77e02d974dba06b81eb3d46bdca2de75e335 chash=d4eb99ce51e1622fd0c72d9446b9886c06b3f040 group=sys mode=0644 owner=root path=mq/lib/imqjmsra.rar pkg.csize=3745972 pkg.size=3745069
+set name=publisher value=stable.glassfish.org

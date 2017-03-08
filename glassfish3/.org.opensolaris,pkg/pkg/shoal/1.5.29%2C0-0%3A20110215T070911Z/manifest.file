@@ -1,0 +1,2 @@
+file 3cacfe3152ad8a0b9721af3105211ccd1038080b chash=cdc133d113305bb7e6d3a5c52fe0c88d7a5c1dd2 group=sys mode=0664 owner=root path=glassfish/modules/shoal-cache.jar pkg.csize=142304 pkg.size=155404
+file c4fa9b4299bb9dcf51130a4386cec2f1e203c82b chash=afb6542935057ad18a1339c32f171da73c786769 group=sys mode=0664 owner=root path=glassfish/modules/shoal-gms-impl.jar pkg.csize=326696 pkg.size=350618

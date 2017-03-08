@@ -1,0 +1,11 @@
+set name=fmri value=pkg:/glassfish-corba-base@3.1.0,0-27:20110215T070738Z
+set name=info.classification value="Application Servers"
+set name=pkg.description value="Base CORBA, including the implementation of Object Management Group (OMG) API and ORB generic libraries for GlassFish.  GlassFish Server is a modular, lightweight, and extensible Java EE 6 application server built on OSGi. Key features include fast startup time, improved developer productivity, hybrid OSGi/Java EE applications, high availability clustering, centralized administration, and overall ease-of-use."
+set name=pkg.summary value="Base CORBA for GlassFish"
+license 8741fa556feea4ca58ec28abc47de0bf9d5b39a3 chash=28b7cfba8f297b99296afc231955dc90e8d76d47 license="CDDL and GPL v2 with classpath exception" pkg.csize=12394 pkg.size=38052
+dir group=sys mode=0755 owner=root path=glassfish
+dir group=sys mode=0755 owner=root path=glassfish/modules
+file 8dd8332461e9c65b7292d42459804a1311d7993d chash=cbff6c34ca1e04bb582247bf8ecede2bfdb26630 group=sys mode=0664 owner=root path=glassfish/modules/glassfish-corba-orbgeneric.jar pkg.csize=153222 pkg.size=181133
+file 0662626faa12b5f404d6c52b56d5856e4f8d9c58 chash=ac9bca969dfdcb89cf7fccbee27f3e97ceb5240c group=sys mode=0664 owner=root path=glassfish/modules/glassfish-corba-omgapi.jar pkg.csize=493255 pkg.size=587259
+file 0d285f83553eed40c06259ddcb8ce1f3b4437c52 chash=b3a284f2899138639c0a076fc5f6d50901623637 group=sys mode=0664 owner=root path=glassfish/modules/glassfish-corba-internal-api.jar pkg.csize=5301 pkg.size=7137
+set name=publisher value=stable.glassfish.org
